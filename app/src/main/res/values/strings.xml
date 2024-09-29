@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task github</string>
+    <string name="error">Error</string>
+    <string name="user_id">ID: %1$d</string>
+    <string name="name">Full Name: %1$s</string>
+    <string name="followers_count">Followers: %1$d</string>
+    <string name="following_count">Following: %1$d</string>
+    <string name="location">Location: %1$s</string>
+    <string name="public_repos">Public repos count: %1$d</string>
+    <string name="public_gists">Public  gists count: %1$d</string>
+    <string name="bio">Bio: %1$s</string>
+    <string name="updated">Updated: %1$s</string>
+</resources>

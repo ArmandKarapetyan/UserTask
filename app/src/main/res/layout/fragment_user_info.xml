@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/avatar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginVertical="@dimen/margin_xm"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="You made a manual transfer" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Full Name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Location" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Followers count" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Followers count" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/publicRepos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Public repos count" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/publicGists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Public gists count" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="Bio" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/updateAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xm"
+        android:layout_marginTop="@dimen/margin_xm"
+        tools:text="update at" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
